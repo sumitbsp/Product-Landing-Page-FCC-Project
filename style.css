@@ -1,0 +1,148 @@
+body, html, * {
+    padding: 0;
+    margin: 0;
+}
+
+body * {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 50px;
+}
+
+.navbar {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    background-color: #96CDFF;
+    height: 55px;
+}
+
+.navbar-item {
+    margin: 0 40px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* .fixed-nav-space-filler {
+    height: 60px;
+    width: 100%;
+} */
+
+#header-img {
+    width: 40%;
+}
+
+.form-container{
+    height: 150px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    align-self: center;
+    margin: 20px 0;
+}
+#email {
+    width: 20%;
+    margin-bottom: 10px;
+}
+#submit {
+    margin-top: 0;
+    background-color: #96CDFF;
+    color: rgba(0,0,0,.5);
+    font-weight: bold;
+    border: 0;
+}
+
+.details-container {
+    width: 75%;
+    margin: 50px auto;
+}
+.details-container i {
+    font-size: 3rem;
+    padding: auto;
+}
+.icon {
+    width: 10%;
+}
+.details {
+    line-height: 1;
+    width: 85%;
+}
+
+.d-flex {
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+/* cards */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border: 1px solid black;
+    width: 32%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.cards-container * {
+    margin: 2.5px 0;
+}
+.cards-container button {
+    width: 40%;
+    margin-bottom: 12px;
+    background-color: #96CDFF;
+    color: black;
+    font-weight: bold;
+    border: 0;
+}
+
+.card-heading {
+    background-color: #96CDFF;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+/* footer */
+footer {
+    background-color: #ddd;
+    height: 60px;
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    align-items: flex-end;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: rgba(0,0,0,.5);
+}
+.footer-links a:last-child {
+    margin-right: 0;
+}
+
+
+main, section, footer {
+    margin: 50px 0;
+}
+footer {
+    background-color: #96CDFF;
+    margin-bottom: 0;
+}

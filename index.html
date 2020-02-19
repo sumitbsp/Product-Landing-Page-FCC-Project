@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar" class="navbar navbar-light navbar-expand-lg fixed-top">
+            <a href="#" class="navbar-brand">
+                <img src="./images/logo.png" id="header-img" alt="">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">How It Works</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="fixed-nav-space-filler"></div>
+    </header>
+    <main>
+        <div class="container form-container text-center">
+            <h2>Handcrafted, home-made masterpieces</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input class="form-control" id="email" type="email" placeholder="Enter Your Email">
+                <input class="btn btn-primary" type="submit" id="submit" value="Get Started">
+            </form>
+        </div>
+    </main>
+
+    <section id="features" class="container">
+        <div class="details-container d-flex">
+            <div class="icon">
+                <i class="fas fa-fire"></i>
+            </div>
+            <div class="details">
+                <h2>
+                    Premium Materials
+                </h2>
+                <p>
+                    Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="details-container d-flex">
+            <div class="icon">
+                <i class="fas fa-shipping-fast"></i>
+            </div>
+            <div class="details">
+                <h2>
+                    Fast Shipping
+                </h2>
+                <p>
+                    We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                </p>
+            </div>
+        </div>
+        <div class="details-container d-flex">
+            <div class="icon">
+                <i class="fas fa-check-square"></i>
+            </div>
+            <div class="details">
+                <h2>
+                    Quality Assurance
+                </h2>
+                <p>
+                    For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                </p>
+            </div>
+        </div>
+
+        <div class="youtube-link text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0OttfOXsP2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="container cards">
+        <div class="cards-container">
+            <div class="card-heading">
+                <h5>TENOR TROMBONE</h5>
+            </div>
+            <h5>$900</h5>
+            <div class="cards-details">
+                <p>Lorem</p>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem Ipsum</p>
+            </div>
+            <button class="btn btn-primary">SELECT</button>
+        </div>
+        <div class="cards-container">
+            <div class="card-heading">
+                <h5>BASS TROMBONE</h5>
+            </div>
+            <h5>$900</h5>
+            <div class="cards-details">
+                <p>Lorem</p>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem Ipsum</p>
+            </div>
+            <button class="btn btn-primary">SELECT</button>
+        </div>
+        <div class="cards-container">
+            <div class="card-heading">
+                <h5>VALVE TROMBONE</h5>
+            </div>
+            <h5>$900</h5>
+            <div class="cards-details">
+                <p>Plays similar to a Trumpet.</p>
+                <p>Great for Jazz Bands.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem Ipsum</p>
+            </div>
+            <button class="btn btn-primary">SELECT</button>
+        </div>
+    </section>
+
+    <footer class="text-right">
+        <div class="container">
+            <div class="footer-links">
+                <a class="navbar-item" href="">Privacy</a>
+                <a class="navbar-item" href="">Terms</a>
+                <a class="navbar-item" href="">Contact</a>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2016, Original Trombones</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
